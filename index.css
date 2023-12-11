@@ -1,26 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background: #EEE;
     font-family: 'Roboto', sans-serif;
 }
 
-.container{
+.container {
     max-width: 1000px;
     background-color: #E4F9f5;
     margin: 0 auto;
     padding: 20px;
 }
 
-header{
+header {}
 
-
-}
-
-.profile{
+.profile {
     width: 100px;
     height: 120px;
     border: 3px solid white;
@@ -28,39 +25,81 @@ header{
     float: left;
 }
 
-.header-bio{
+.header-bio {
     float: left;
     padding: 30px;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #11999e;
 }
 
-.header-contact{
-      float: right;
-      padding: 30px;
-
-}
-.header-contact a{
-      text-decoration: none;
-      color: teal;
-      font-weight: bold;
-
-}
-.header-contact a:hover{
-      text-decoration: underline;
-      color: tomato;
+.header-contact {
+    float: right;
+    padding: 30px;
 
 }
 
-.div-clear{
+.header-contact a {
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+
+}
+
+.header-contact a:hover {
+    text-decoration: underline;
+    color: tomato;
+
+}
+
+.div-clear {
     clear: both;
 }
 
-hr{
+hr {
     border: 2px solid black;
     width: 100%;
     margin: 20px auto;
-    border-bottom:none;
+    border-bottom: none;
+}
+
+#personal-section {}
+
+
+.content {
+    margin-bottom: 30px;
+}
+
+.left-div {
+    width: 30%;
+    float: left;
+
+}
+
+.right-div {
+    width: 70%;
+    float: left;
+
+
+}
+
+
+.common-hr{
+
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+
+}
+
+.experiance{
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
